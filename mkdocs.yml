@@ -1,0 +1,12 @@
+site_name: Interactive Tutorials
+site_url: https://ryanbrown919.github.io/interactive-tutorials/
+nav:
+  - Home: index.md
+  - Tutorials:
+      - Tutorial 1: tutorials/tutorial-1/content.md
+theme:
+  name: material
+plugins:
+  - search
+markdown_extensions:
+  - pymdownx.superfences
